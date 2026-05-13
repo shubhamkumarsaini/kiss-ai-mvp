@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kiss A.I.</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="preconnect"
+  href="https://fonts.googleapis.com"
+/>
+
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin
+/>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap"
+  rel="stylesheet"
+/>
+</head>
+
+<body>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Logo -->
+    <div class="logo-section">
+
+      <img
+        src="logo.svg"
+        alt="Kiss A.I. Logo"
+        class="logo"
+      />
+
+      <h1>Kiss A.I.</h1>
+
+      <p class="tagline">
+        Futuristic Japan-Punk Anime Avatar Generator
+      </p>
+
+    </div>
+
+    <!-- Generator Card -->
+    <div class="generator-card">
+
+      <label for="prompt">
+        Enter Your Prompt
+      </label>
+
+      <textarea
+        id="prompt"
+        placeholder="Example: cyberpunk anime avatar with neon red jacket"
+      ></textarea>
+
+      <button id="generateBtn">
+        Generate
+      </button>
+
+    </div>
+
+    <!-- Result Section -->
+    <div class="result-card">
+
+      <h2>Result</h2>
+
+      <!-- Sanitized Prompt -->
+      <div class="result-box">
+
+        <h3>Sanitized Prompt</h3>
+
+        <p id="sanitizedPrompt">
+          Waiting for prompt...
+        </p>
+
+      </div>
+
+      <!-- Status -->
+      <div class="result-box">
+
+        <h3>Status</h3>
+
+        <p id="status">
+          No request yet
+        </p>
+
+      </div>
+
+      <!-- Preview Image -->
+      <div class="image-preview">
+
+        <img
+          id="previewImage"
+          src="placeholder.jpg"
+          alt="Preview"
+        />
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-links">
+
+      <a href="#">
+        Terms
+      </a>
+
+      <a href="#" id="reportBtn">
+        Report
+      </a>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html> 

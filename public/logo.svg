@@ -1,0 +1,68 @@
+
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Circle -->
+  <circle
+    cx="256"
+    cy="256"
+    r="220"
+    fill="#0B0B0B"
+    stroke="#FF5A1F"
+    stroke-width="10"
+  />
+
+  <!-- Neon Glow Ring -->
+  <circle
+    cx="256"
+    cy="256"
+    r="195"
+    stroke="#FF7B00"
+    stroke-width="4"
+    opacity="0.7"
+  />
+
+  <!-- Top Lip -->
+  <path
+    d="M150 255
+       C190 205, 235 205, 256 230
+       C277 205, 322 205, 362 255
+       C322 242, 290 250, 256 270
+       C222 250, 190 242, 150 255Z"
+    fill="#FF3C00"
+  />
+
+  <!-- Bottom Lip -->
+  <path
+    d="M150 255
+       C190 315, 235 330, 256 330
+       C277 330, 322 315, 362 255
+       C322 280, 290 292, 256 300
+       C222 292, 190 280, 150 255Z"
+    fill="#FF7B00"
+  />
+
+  <!-- Inner Shine -->
+  <path
+    d="M190 245
+       C220 225, 245 225, 256 240"
+    stroke="#FFD6C7"
+    stroke-width="8"
+    stroke-linecap="round"
+    opacity="0.8"
+  />
+
+  <!-- KISS A.I. Text -->
+  <text
+    x="256"
+    y="430"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-size="42"
+    font-family="Orbitron, Arial, sans-serif"
+    letter-spacing="5"
+    font-weight="700"
+  >
+    KISS A.I.
+  </text>
+
+</svg>
